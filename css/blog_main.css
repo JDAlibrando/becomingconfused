@@ -32,7 +32,7 @@ h2 {
 	color: black;
 	width:100%;
 	background: wheat;
-	font-size:150%;
+	font-size:140%;
 	margin:0;
 	padding: 5px;
 	text-align: center;
@@ -45,22 +45,9 @@ h3 {
 p {
 	letter-spacing: 1px;
 	line-height: 40px;
-	font-size: 120%;
+	font-size: 150%;
 	padding: 10px;
 }
-figure {
-	float: left;
-	width: 40%;
-}
-figure img{
-	width: 100%;
-}
-
-figure figcaption, a {
-	font-size: 80%;
-	color: white;
-}
-
 
 nav ul{
 	margin: 0;
@@ -68,7 +55,6 @@ nav ul{
 	width: 100%;
 	display: inline-flex;
 	list-style:none;
-
 }
 
 nav ul li{
@@ -100,39 +86,6 @@ li a:hover {
 	border-color:rgba(0, 0, 0, 0);
   }
 
-
-.block {
-	float: left;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: 120%;
-	display: inline-flex;
-	width: 50%;
-	border: none;
-	color: white;
-	padding: 14px 28px;
-	text-align: center;
-	background: rgba(0, 0, 0, 0);
-}
-
-
-.block:hover {
-	background-color: rgba(0, 0, 0, 0.135);
-}
-
-table {
-	margin-bottom: 40px;
-	padding:5px;
-	float:left;
-	width: 50%;
-}
-
-table tr td, th {
-	border: 3px solid;
-	border-color: rgb(255, 255, 255, 0.1);
-	padding: 5px;
-	text-align:center;
-}
-
 footer {
 	position:fixed;
 	top: 95%;
@@ -142,6 +95,3 @@ footer {
 	width: 100%;
 }
 
-div p.buffer {
-	color: rgba(0, 0, 0, 0);
-}
