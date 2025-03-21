@@ -1,29 +1,23 @@
-html{
-	font-size: medium;
-	background-color: black;
-}
 body {
+	font-size: 18pt;
 	margin: 0;
 	background-color: darkslategray;
 	color: lightcyan;
 }
 
-body div {
-	margin-top: 100px;
-}
-
 body div p {
+	display:inline-block;
 	font-size: 18pt;
 	letter-spacing: 1px;
 	line-height: 40px;
-	padding-bottom: 100%;
 	margin: 0px;
-	text-align: center;
+	padding: 100px;
+	text-align: left;
 }
 
-canvas {
+body canvas {
 	display:block;
-	margin: 5%;
+	margin: 100px;
 	padding: 0px;
   }
 
@@ -90,6 +84,7 @@ footer {
 	position:fixed;
 	bottom: 0px;
 	padding: 10px;
+	height: 50px;
 	background: black;
 	width: 100%;
 }
