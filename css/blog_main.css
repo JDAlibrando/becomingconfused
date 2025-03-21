@@ -81,10 +81,11 @@ li a:hover {
 
 footer {
 	font-size: 12pt;
+	line-height: 35px;
 	position:fixed;
 	bottom: 0px;
 	padding: 10px;
-	height: 50px;
+	height: 40px;
 	background: black;
 	width: 100%;
 }
