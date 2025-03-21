@@ -8,18 +8,27 @@ body {
 	color: lightcyan;
 }
 
+body div {
+	margin-top: 100px;
+}
+
+body div p {
+	font-size: 18pt;
+	letter-spacing: 1px;
+	line-height: 40px;
+	padding-bottom: 100%;
+	margin: 0px;
+	text-align: center;
+}
+
 canvas {
 	display:block;
 	margin: 5%;
 	padding: 0px;
   }
 
-div.text {
-	margin: 40px;
-	text-align: center;
-}
-
-h4 {
+h4,h4 a {
+	font-size: 18pt;
 	background-color: black;
 	color: white;
 	padding: 10px;
@@ -50,13 +59,9 @@ h3 {
 	text-align: center;
 }
 
-p {
-	letter-spacing: 1px;
-	line-height: 40px;
-	padding: 10px;
-}
 
 nav ul{
+	background: wheat;
 	margin: 0;
 	float: right;
 	width: 100%;
@@ -73,6 +78,7 @@ nav ul li{
 
 
 nav ul li a, nav ul li span {
+	font-size: 18pt;
 	cursor: default;
 	border-style: solid;
 	border-color:rgba(0, 0, 0, 0.025);
@@ -93,6 +99,7 @@ li a:hover {
   }
 
 footer {
+	font-size: 12pt;
 	position:fixed;
 	bottom: 0px;
 	padding: 10px;
