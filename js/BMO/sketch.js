@@ -8,7 +8,7 @@ let ampSlider, speedSlider;
 let cirMode, cirProg, cirSig, onOff, bmo;
 
 function preload() {
-  bmo = createImg("BMO.gif", "BMO");
+  bmo = createImg("js/BMO/BMO.gif", "BMO");
   bmo.size(60, 65);
   bmo.position(280, 10);
 }
@@ -36,7 +36,7 @@ function setup() {
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+
 }
 
 function mousePressed() {
