@@ -91,6 +91,10 @@ footer {
 	width: 100%;
 }
 
+img{
+	width: 70%;
+	padding: 15%
+}
 
 footer a {
 	color: gold;
