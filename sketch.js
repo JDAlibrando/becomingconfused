@@ -1,5 +1,5 @@
 function preload() {
-  moth = createImg('img/moth.png','moth');
+  //moth = createImg('img/moth.png','moth');
   invitation = new Page(loadStrings('text/invitation.txt'),"invitation");
   confused = new Page(loadStrings('text/confused.txt'),"confused");
   exist = new Page(loadStrings('text/exist.txt'), "exist");
@@ -26,9 +26,9 @@ function setup() {
 function setupWeb() {
   noCanvas();
   createElement('h4').html('<a href="https://becomingconfused.com/">becomingConfused</a>');
-  moth.position(300, 4);
-  moth.size(80,40);
-  moth.position()
+  //moth.position(300, 4);
+  //moth.size(80,40);
+  //moth.position()
   ndiv = createDiv();
   title = createElement('h5').html('becomingConfused');
   pdiv = createDiv();
