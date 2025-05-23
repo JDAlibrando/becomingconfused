@@ -1,20 +1,20 @@
 function preload() {
-  //moth = createImg('img/moth.png','moth');
-  invitation = new Page(loadStrings('text/invitation.txt'),"invitation");
-  confused = new Page(loadStrings('text/confused.txt'),"confused");
-  exist = new Page(loadStrings('text/exist.txt'), "exist");
-  now = new Page(loadStrings('text/now.txt'), "now");
-  here = new Page(loadStrings('text/here.txt'), "here");
-  garden = new Page(loadStrings('text/garden.txt'), "garden");
-  forms = new Page(loadStrings('text/forms.txt'), "forms");
-  self = new Page(loadStrings('text/self.txt'), "self");
-  remember = new Page(loadStrings('text/remember.txt'), "remember");
-  love = new Page(loadStrings('text/love.txt'), "love");
-  together = new Page(loadStrings('text/together.txt'), "together");
-  beauty = new Page(loadStrings('text/beauty.txt'), "beauty");
-  worry = new Page(loadStrings('text/worry.txt'), "worry");
-  journey = new Page(loadStrings('text/journey.txt'), "journey");
-  dream = new Page(loadStrings('text/dream.txt'), "dream");
+  moth = createImg('img/moth.png','moth');
+  invitation = new Page(loadStrings('./text/invitation.txt'),"invitation");
+  confused = new Page(loadStrings('./text/confused.txt'),"confused");
+  exist = new Page(loadStrings('./text/exist.txt'), "exist");
+  now = new Page(loadStrings('./text/now.txt'), "now");
+  here = new Page(loadStrings('./text/here.txt'), "here");
+  garden = new Page(loadStrings('./text/garden.txt'), "garden");
+  forms = new Page(loadStrings('./text/forms.txt'), "forms");
+  self = new Page(loadStrings('./text/self.txt'), "self");
+  remember = new Page(loadStrings('./text/remember.txt'), "remember");
+  love = new Page(loadStrings('./text/love.txt'), "love");
+  together = new Page(loadStrings('./text/together.txt'), "together");
+  beauty = new Page(loadStrings('./text/beauty.txt'), "beauty");
+  worry = new Page(loadStrings('./text/worry.txt'), "worry");
+  journey = new Page(loadStrings('./text/journey.txt'), "journey");
+  dream = new Page(loadStrings('./text/dream.txt'), "dream");
 }
 
 function setup() {
@@ -26,9 +26,9 @@ function setup() {
 function setupWeb() {
   noCanvas();
   createElement('h4').html('<a href="https://becomingconfused.com/">becomingConfused</a>');
-  //moth.position(300, 4);
-  //moth.size(80,40);
-  //moth.position()
+  moth.position(300, 4);
+  moth.size(80,40);
+  moth.position()
   ndiv = createDiv();
   title = createElement('h5').html('becomingConfused');
   pdiv = createDiv();
