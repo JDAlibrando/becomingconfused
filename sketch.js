@@ -26,7 +26,7 @@ function setup() {
 function setupWeb() {
   noCanvas();
   createElement('h4').html('<a href="https://becomingconfused.com/">becomingConfused</a>');
-  moth.position(300, 4);
+  moth.position(310, 4);
   moth.size(80,40);
   moth.position()
   ndiv = createDiv();
