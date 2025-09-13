@@ -18,6 +18,7 @@ function preload() {
   worry = new Page(loadStrings('text/worry.txt'), "worry");
   journey = new Page(loadStrings('text/journey.txt'), "journey");
   dream = new Page(loadStrings('text/dream.txt'), "dream");
+  other = new Page(loadStrings('text/other.txt'), "other");
 }
 
 function setup() {
@@ -44,8 +45,10 @@ function setupPages() {
     [invitation],
     [confused], 
     [exist, here, now],
-    [[garden,forms,self,worry],[love,beauty,together],[dream,journey,remember]]
+    [[garden,forms,self,worry],[love,beauty,together],[dream,journey,remember]],
+    [[],[],[other],[],[],[],[],[],[],[]]
   ];
+
   diagram[0][0].children = diagram[1];
 
   diagram[1][0].parents = diagram[0];
@@ -72,5 +75,8 @@ function setupPages() {
   diagram[3][2][0].parents = [diagram[2][2]];
   diagram[3][2][1].parents = [diagram[2][2]];
   diagram[3][2][2].parents = [diagram[2][2]];
-
+  diagram[3][2][0].parents = [diagram[2][2]];
+  
+  diagram[3][0][2].children = [diagram[4][2][0]]
+  diagram[4][2][0].parents = [diagram[3][0][2]];
 } 
